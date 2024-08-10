@@ -1,0 +1,12 @@
+.footer{
+    margin-left: 40px;
+}
+@media (max-width:500px) {
+    .footer__p{
+        display: none;
+    }
+    .footer{
+        margin-left: 0;
+    }
+    
+}
