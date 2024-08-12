@@ -1,3 +1,12 @@
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background:rgba(226, 232, 240, 0.778);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+}
 .navbar__menu{
     display: none;
 }

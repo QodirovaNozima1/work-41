@@ -19,37 +19,46 @@
     position: absolute;
     top: 10px;
     left: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
 }
 .api{
     padding-bottom: 30px;
-    /* opacity: 0; */
+    opacity: 1;
     transition: .3s;
 }
 .api:hover{
-    box-shadow: 0 0 10px 0 rgb(245, 242, 242);
-    margin-top: 40px;
-    padding-bottom: 30px;
     transition: .5s;
     opacity: 1;
+    box-shadow: 0 0 20px 0 rgba(238, 238, 238, 0.827);
    .btr{
     position: absolute;
     bottom: 10px;
-    left: 230px;
+    right: 20px;
     opacity: 1;
-    transition: .5s; 
-
+    transition: .3s; 
    } 
    .ofset{
     position: absolute;
     bottom: 10px;
-    left: 8%;
+    left: 20px;
     opacity: 1;
 }
 }
 .ofset{
     position: absolute;
-    margin-top: 400px;
-    bottom: -20px;
+    bottom: -10px;
     left: -80px;
     opacity: 0;
+}
+.green{
+    transition: .3s;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+}
+.green:hover{
+    box-shadow: 0 0 10px 0 rgb(110,231,183);
 }
